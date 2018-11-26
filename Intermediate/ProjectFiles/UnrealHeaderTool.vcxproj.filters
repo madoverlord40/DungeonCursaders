@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FBC488BC-0BB7-44B5-91F2-BC97F1A4BB33}</UniqueIdentifier>
+    </Filter>
+    <None Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Programs\UnrealHeaderTool\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{724FD6F3-B145-4CE3-A69E-20290C0D7FBC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\ClassDeclarationMetaData.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\ClassDeclarationMetaData.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Classes.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Classes.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\CodeGenerator.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\FileLineException.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\FileLineException.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\GeneratedCodeVersion.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderProvider.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderProvider.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\IScriptGeneratorPluginInterface.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\NativeClassExporter.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\ParserClass.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\ParserClass.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Scope.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Scope.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\SimplifiedParsingClassInfo.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\StringUtils.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\StringUtils.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\UnderlyingEnumType.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderTool.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolGlobals.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolMain.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealSourceFile.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealSourceFile.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealTypeDefinitionInfo.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <Filter Include="Private\Specifiers">
+      <UniqueIdentifier>{16BA79E3-DFF9-4E1B-A770-A7DDC6509803}</UniqueIdentifier>
+    </Filter>
+    <None Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.def">
+      <Filter>Private\Specifiers</Filter>
+    </None>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.h">
+      <Filter>Private\Specifiers</Filter>
+    </ClInclude>
+    <None Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\FunctionSpecifiers.def">
+      <Filter>Private\Specifiers</Filter>
+    </None>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\FunctionSpecifiers.h">
+      <Filter>Private\Specifiers</Filter>
+    </ClInclude>
+    <None Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\InterfaceSpecifiers.def">
+      <Filter>Private\Specifiers</Filter>
+    </None>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\InterfaceSpecifiers.h">
+      <Filter>Private\Specifiers</Filter>
+    </ClInclude>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\SpecifierArrays.cpp">
+      <Filter>Private\Specifiers</Filter>
+    </ClCompile>
+    <None Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\StructSpecifiers.def">
+      <Filter>Private\Specifiers</Filter>
+    </None>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\StructSpecifiers.h">
+      <Filter>Private\Specifiers</Filter>
+    </ClInclude>
+    <None Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\VariableSpecifiers.def">
+      <Filter>Private\Specifiers</Filter>
+    </None>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\VariableSpecifiers.h">
+      <Filter>Private\Specifiers</Filter>
+    </ClInclude>
+    <Filter Include="Public">
+      <UniqueIdentifier>{C88A361D-701B-4D5E-9F9C-56E94E8A52FE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Public\IScriptGeneratorPluginInterface.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{21D62BB3-1E5B-417C-A33B-1F76CC4D4500}</UniqueIdentifier>
+    </Filter>
+    <Manifest Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging.manifest">
+      <Filter>Resources</Filter>
+    </Manifest>
+    <Filter Include="Resources\UHTDebugging">
+      <UniqueIdentifier>{2FDF15D5-0A4B-4B8C-B6A6-C21CC9C1BAD6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\EnumOnlyHeader.h">
+      <Filter>Resources\UHTDebugging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\StructOnlyHeader.h">
+      <Filter>Resources\UHTDebugging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestDeprecatedObject.h">
+      <Filter>Resources\UHTDebugging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterface.h">
+      <Filter>Resources\UHTDebugging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterfaceObject.h">
+      <Filter>Resources\UHTDebugging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestObject.h">
+      <Filter>Resources\UHTDebugging</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

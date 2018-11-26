@@ -1,0 +1,780 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DungeonCrusades.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{5B96357E-64BF-4DBF-8EC5-5F3C67803000}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DungeonCrusades.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DungeonCrusadesEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A3E7F69F-409F-462F-9576-9DDC538BA34D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CharacterProfileWidget.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CharacterProfileWidget.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\DungeonCrusades.Build.cs">
+      <Filter>Source</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DungeonCrusades.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DungeonCrusades.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DungeonCrusadesGameModeBase.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DungeonCrusadesGameModeBase.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DungeonCrusadesInstance.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DungeonCrusadesInstance.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GamePlayerState.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GamePlayerState.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MainCameraActor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MainCameraActor.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PersistentGameMode.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PersistentGameMode.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PersistentGameState.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PersistentGameState.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RichTextImageDecorator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RichTextImageDecorator.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TitleScreenWidget.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TitleScreenWidget.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters">
+      <UniqueIdentifier>{D2DC0E01-54E8-405A-8C69-0893C2A779CF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\BattleCharacterBase.cpp">
+      <Filter>Source\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\BattleCharacterBase.h">
+      <Filter>Source\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\EnemyHealthBarWidget.cpp">
+      <Filter>Source\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\EnemyHealthBarWidget.h">
+      <Filter>Source\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\FloatingDamageTextActor.cpp">
+      <Filter>Source\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\FloatingDamageTextActor.h">
+      <Filter>Source\Characters</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters\Abilities">
+      <UniqueIdentifier>{21A07ADA-69AE-4688-B57C-C6D72D3F1D31}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\Abilities\AbilityBase.cpp">
+      <Filter>Source\Characters\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Abilities\AbilityBase.h">
+      <Filter>Source\Characters\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Abilities\AttackAbility.cpp">
+      <Filter>Source\Characters\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Abilities\AttackAbility.h">
+      <Filter>Source\Characters\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Abilities\RageAttackAbility.cpp">
+      <Filter>Source\Characters\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Abilities\RageAttackAbility.h">
+      <Filter>Source\Characters\Abilities</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters\AnimNotifies">
+      <UniqueIdentifier>{C56ED5DB-0758-40AD-93B6-C75B533EFB8E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\AnimNotifies\CharacterAnimNotify.cpp">
+      <Filter>Source\Characters\AnimNotifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\AnimNotifies\CharacterAnimNotify.h">
+      <Filter>Source\Characters\AnimNotifies</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters\DataStructures">
+      <UniqueIdentifier>{0786FEF3-541D-4925-9CBD-DFCBCADF4919}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\ArmorObject.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\ArmorObject.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\CombatData.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\CombatData.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\ConsumableItemObject.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\ConsumableItemObject.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\CurrencyItemObject.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\CurrencyItemObject.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\DungeonDoorKey.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\DungeonDoorKey.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\EpicArmorObject.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\EpicArmorObject.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\EpicWeaponObject.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\EpicWeaponObject.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\EquippedArmorObject.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\EquippedArmorObject.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\EquippedWeaponObject.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\EquippedWeaponObject.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\InventoryItemObject.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\InventoryItemObject.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\ItemObject.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\ItemObject.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\LegendaryArmorObject.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\LegendaryArmorObject.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\LegendaryWeaponObject.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\LegendaryWeaponObject.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\PlayerTraitObject.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\PlayerTraitObject.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\StatusEffectData.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\StatusEffectData.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\ToolItemObject.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\ToolItemObject.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\WeaponObject.cpp">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\WeaponObject.h">
+      <Filter>Source\Characters\DataStructures</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters\DataStructures\SaveGames">
+      <UniqueIdentifier>{3954FC78-DC5C-4834-969A-C41459AF2645}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\SaveGames\AbilitySaveGame.cpp">
+      <Filter>Source\Characters\DataStructures\SaveGames</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\SaveGames\AbilitySaveGame.h">
+      <Filter>Source\Characters\DataStructures\SaveGames</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\SaveGames\BattleCompSaveGame.cpp">
+      <Filter>Source\Characters\DataStructures\SaveGames</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\SaveGames\BattleCompSaveGame.h">
+      <Filter>Source\Characters\DataStructures\SaveGames</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\DataStructures\SaveGames\InventorySaveGame.cpp">
+      <Filter>Source\Characters\DataStructures\SaveGames</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\DataStructures\SaveGames\InventorySaveGame.h">
+      <Filter>Source\Characters\DataStructures\SaveGames</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters\Enemies">
+      <UniqueIdentifier>{C54F5F3E-DF4D-44E6-8C1D-E84E6E5C25C2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\Enemies\EnemyCharacterBase.cpp">
+      <Filter>Source\Characters\Enemies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\EnemyCharacterBase.h">
+      <Filter>Source\Characters\Enemies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Enemies\UndeadWarrior.cpp">
+      <Filter>Source\Characters\Enemies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\UndeadWarrior.h">
+      <Filter>Source\Characters\Enemies</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters\Enemies\Animations">
+      <UniqueIdentifier>{F2BEAD70-D73B-43A6-AF84-A003B3DD67EC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\Enemies\Animations\EnemyAnimationBasse.cpp">
+      <Filter>Source\Characters\Enemies\Animations</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\Animations\EnemyAnimationBasse.h">
+      <Filter>Source\Characters\Enemies\Animations</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters\Enemies\Components">
+      <UniqueIdentifier>{4834F43D-ADF8-4935-AC11-E847754E795F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\Enemies\Components\LootSystemComponent.cpp">
+      <Filter>Source\Characters\Enemies\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\Components\LootSystemComponent.h">
+      <Filter>Source\Characters\Enemies\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters\Enemies\Controllers">
+      <UniqueIdentifier>{60EC6FC1-37E3-46AC-B805-64F629EAE63F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\Enemies\Controllers\EnemyAIControllerBase.cpp">
+      <Filter>Source\Characters\Enemies\Controllers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\Controllers\EnemyAIControllerBase.h">
+      <Filter>Source\Characters\Enemies\Controllers</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters\Enemies\Controllers\AITasks">
+      <UniqueIdentifier>{F3603D70-C3CF-40D5-9A4D-1D3440EC2595}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\Enemies\Controllers\AITasks\AIDecorator_HasTargetLoop.cpp">
+      <Filter>Source\Characters\Enemies\Controllers\AITasks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\Controllers\AITasks\AIDecorator_HasTargetLoop.h">
+      <Filter>Source\Characters\Enemies\Controllers\AITasks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Enemies\Controllers\AITasks\AITask_AggroDelay.cpp">
+      <Filter>Source\Characters\Enemies\Controllers\AITasks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\Controllers\AITasks\AITask_AggroDelay.h">
+      <Filter>Source\Characters\Enemies\Controllers\AITasks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Enemies\Controllers\AITasks\AITask_ChasePlayer.cpp">
+      <Filter>Source\Characters\Enemies\Controllers\AITasks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\Controllers\AITasks\AITask_ChasePlayer.h">
+      <Filter>Source\Characters\Enemies\Controllers\AITasks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Enemies\Controllers\AITasks\AITask_IdleRoam.cpp">
+      <Filter>Source\Characters\Enemies\Controllers\AITasks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\Controllers\AITasks\AITask_IdleRoam.h">
+      <Filter>Source\Characters\Enemies\Controllers\AITasks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Enemies\Controllers\AITasks\AITask_IdleWait.cpp">
+      <Filter>Source\Characters\Enemies\Controllers\AITasks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\Controllers\AITasks\AITask_IdleWait.h">
+      <Filter>Source\Characters\Enemies\Controllers\AITasks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Enemies\Controllers\AITasks\AITask_PerformAttack.cpp">
+      <Filter>Source\Characters\Enemies\Controllers\AITasks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\Controllers\AITasks\AITask_PerformAttack.h">
+      <Filter>Source\Characters\Enemies\Controllers\AITasks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Enemies\Controllers\AITasks\AITask_SpawnDelay.cpp">
+      <Filter>Source\Characters\Enemies\Controllers\AITasks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\Controllers\AITasks\AITask_SpawnDelay.h">
+      <Filter>Source\Characters\Enemies\Controllers\AITasks</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters\Enemies\LootItems">
+      <UniqueIdentifier>{B6A18139-E166-42CF-920C-E557080A68C1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\Enemies\LootItems\ExperienceDropActor.cpp">
+      <Filter>Source\Characters\Enemies\LootItems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\LootItems\ExperienceDropActor.h">
+      <Filter>Source\Characters\Enemies\LootItems</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Enemies\LootItems\LootableItemBase.cpp">
+      <Filter>Source\Characters\Enemies\LootItems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\LootItems\LootableItemBase.h">
+      <Filter>Source\Characters\Enemies\LootItems</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Enemies\LootItems\ModifyStatsDrop.cpp">
+      <Filter>Source\Characters\Enemies\LootItems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\LootItems\ModifyStatsDrop.h">
+      <Filter>Source\Characters\Enemies\LootItems</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Enemies\LootItems\UseableItemDrop.cpp">
+      <Filter>Source\Characters\Enemies\LootItems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\LootItems\UseableItemDrop.h">
+      <Filter>Source\Characters\Enemies\LootItems</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Enemies\LootItems\WeaponUpgradeDrop.cpp">
+      <Filter>Source\Characters\Enemies\LootItems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Enemies\LootItems\WeaponUpgradeDrop.h">
+      <Filter>Source\Characters\Enemies\LootItems</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters\Players">
+      <UniqueIdentifier>{89AE9F37-0BE0-442C-A1C1-E5065BCE82BF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\Players\DungeonPlayerState.cpp">
+      <Filter>Source\Characters\Players</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\DungeonPlayerState.h">
+      <Filter>Source\Characters\Players</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\JadeVampiress.cpp">
+      <Filter>Source\Characters\Players</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\JadeVampiress.h">
+      <Filter>Source\Characters\Players</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\JadeVampiressAnimation.cpp">
+      <Filter>Source\Characters\Players</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\JadeVampiressAnimation.h">
+      <Filter>Source\Characters\Players</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\PlayerCharacterBase.cpp">
+      <Filter>Source\Characters\Players</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\PlayerCharacterBase.h">
+      <Filter>Source\Characters\Players</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters\Players\Components">
+      <UniqueIdentifier>{BC30F42B-1ED4-4BBC-859C-0F6897ED98CC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\Players\Components\AbilityManagerComponent.cpp">
+      <Filter>Source\Characters\Players\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\Components\AbilityManagerComponent.h">
+      <Filter>Source\Characters\Players\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\Components\ActionVoicesComponent.cpp">
+      <Filter>Source\Characters\Players\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\Components\ActionVoicesComponent.h">
+      <Filter>Source\Characters\Players\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\Components\CombatComponent.cpp">
+      <Filter>Source\Characters\Players\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\Components\CombatComponent.h">
+      <Filter>Source\Characters\Players\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\Components\EquipmentComponent.cpp">
+      <Filter>Source\Characters\Players\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\Components\EquipmentComponent.h">
+      <Filter>Source\Characters\Players\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\Components\InventoryComponent.cpp">
+      <Filter>Source\Characters\Players\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\Components\InventoryComponent.h">
+      <Filter>Source\Characters\Players\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters\Players\Controllers">
+      <UniqueIdentifier>{C252E0A7-2025-40A2-8E19-0F6028DF2E0E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\Players\Controllers\PlayerControllerBase.cpp">
+      <Filter>Source\Characters\Players\Controllers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\Controllers\PlayerControllerBase.h">
+      <Filter>Source\Characters\Players\Controllers</Filter>
+    </ClInclude>
+    <Filter Include="Source\Characters\Players\UI">
+      <UniqueIdentifier>{E0D56BB1-B02A-435D-ADC2-01A278F54A7D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\AbilityButton.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\AbilityButton.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\CombatLogWidget.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\CombatLogWidget.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\DoorInteractWindow.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\DoorInteractWindow.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\EquippedItemButtonUI.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\EquippedItemButtonUI.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\HealthPanelUI.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\HealthPanelUI.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\InventoryButtonUI.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\InventoryButtonUI.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\ItemDetailsUI.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\ItemDetailsUI.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\ItemInventoryUI.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\ItemInventoryUI.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\LootDetailsWindow.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\LootDetailsWindow.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\LootWindowItem.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\LootWindowItem.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\PlayerAbilityBar.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\PlayerAbilityBar.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\PlayerCharacterStatsWidget.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\PlayerCharacterStatsWidget.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\PlayerMainUI.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\PlayerMainUI.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\PlayerWidgetHUD.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\PlayerWidgetHUD.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\TraitListItemWidget.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\TraitListItemWidget.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\TraitWindowUI.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\TraitWindowUI.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\TreasureLootWindow.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\TreasureLootWindow.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\UsableItemButton.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\UsableItemButton.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Characters\Players\UI\UsableItemsBar.cpp">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Characters\Players\UI\UsableItemsBar.h">
+      <Filter>Source\Characters\Players\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\DefaultPawns">
+      <UniqueIdentifier>{C68042F6-2525-4ED0-9D28-A0BC4D6C8AB2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\DefaultPawns\CharacterSelectPawn.cpp">
+      <Filter>Source\DefaultPawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DefaultPawns\CharacterSelectPawn.h">
+      <Filter>Source\DefaultPawns</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DefaultPawns\CharSelectPawnController.cpp">
+      <Filter>Source\DefaultPawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DefaultPawns\CharSelectPawnController.h">
+      <Filter>Source\DefaultPawns</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DefaultPawns\TitlePawnController.cpp">
+      <Filter>Source\DefaultPawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DefaultPawns\TitlePawnController.h">
+      <Filter>Source\DefaultPawns</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DefaultPawns\TitleScreenCameraPawn.cpp">
+      <Filter>Source\DefaultPawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DefaultPawns\TitleScreenCameraPawn.h">
+      <Filter>Source\DefaultPawns</Filter>
+    </ClInclude>
+    <Filter Include="Source\DungeonCrusadesPlayerState">
+      <UniqueIdentifier>{EAC18B8B-9EBE-459D-A956-79420D14786E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\DungeonCrusadesPlayerState\MyPlayerState.cpp">
+      <Filter>Source\DungeonCrusadesPlayerState</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DungeonCrusadesPlayerState\MyPlayerState.h">
+      <Filter>Source\DungeonCrusadesPlayerState</Filter>
+    </ClInclude>
+    <Filter Include="Source\GameModes">
+      <UniqueIdentifier>{370E48C9-8C34-4AE7-B9CC-FC81DE236E50}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GameModes\CharacterSelectGameMode.cpp">
+      <Filter>Source\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameModes\CharacterSelectGameMode.h">
+      <Filter>Source\GameModes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameModes\CharSelectGameMode.cpp">
+      <Filter>Source\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameModes\CharSelectGameMode.h">
+      <Filter>Source\GameModes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameModes\DungeonGameMode.cpp">
+      <Filter>Source\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameModes\DungeonGameMode.h">
+      <Filter>Source\GameModes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameModes\RootGameMode.cpp">
+      <Filter>Source\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameModes\RootGameMode.h">
+      <Filter>Source\GameModes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameModes\TitleScreenGameMode.cpp">
+      <Filter>Source\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameModes\TitleScreenGameMode.h">
+      <Filter>Source\GameModes</Filter>
+    </ClInclude>
+    <Filter Include="Source\GameStates">
+      <UniqueIdentifier>{A3097D1A-A448-4113-A15B-0BCE6136B4AF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GameStates\CharSelectGameState.cpp">
+      <Filter>Source\GameStates</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameStates\CharSelectGameState.h">
+      <Filter>Source\GameStates</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameStates\DungeonGameState.cpp">
+      <Filter>Source\GameStates</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameStates\DungeonGameState.h">
+      <Filter>Source\GameStates</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameStates\RootGameState.cpp">
+      <Filter>Source\GameStates</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameStates\RootGameState.h">
+      <Filter>Source\GameStates</Filter>
+    </ClInclude>
+    <Filter Include="Source\LevelActors">
+      <UniqueIdentifier>{38D3290B-0681-4491-BB4C-6268FE4384C6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LevelActors\DungeonDoorActor.cpp">
+      <Filter>Source\LevelActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LevelActors\DungeonDoorActor.h">
+      <Filter>Source\LevelActors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LevelActors\DungeonPropActor.cpp">
+      <Filter>Source\LevelActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LevelActors\DungeonPropActor.h">
+      <Filter>Source\LevelActors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LevelActors\DungeonTrapActor.cpp">
+      <Filter>Source\LevelActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LevelActors\DungeonTrapActor.h">
+      <Filter>Source\LevelActors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LevelActors\DungeonTreasureChest.cpp">
+      <Filter>Source\LevelActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LevelActors\DungeonTreasureChest.h">
+      <Filter>Source\LevelActors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LevelActors\LevelController.cpp">
+      <Filter>Source\LevelActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LevelActors\LevelController.h">
+      <Filter>Source\LevelActors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LevelActors\RoomController.cpp">
+      <Filter>Source\LevelActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LevelActors\RoomController.h">
+      <Filter>Source\LevelActors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LevelActors\TorchLightActor.cpp">
+      <Filter>Source\LevelActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LevelActors\TorchLightActor.h">
+      <Filter>Source\LevelActors</Filter>
+    </ClInclude>
+    <Filter Include="Source\LevelConstructors">
+      <UniqueIdentifier>{1F9BEEBC-2A7B-4B59-A133-844C0413AF8F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LevelConstructors\LevelConstructorBase.cpp">
+      <Filter>Source\LevelConstructors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LevelConstructors\LevelConstructorBase.h">
+      <Filter>Source\LevelConstructors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LevelConstructors\WallConstructor.cpp">
+      <Filter>Source\LevelConstructors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LevelConstructors\WallConstructor.h">
+      <Filter>Source\LevelConstructors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LevelConstructors\WallDoorwayConstructor.cpp">
+      <Filter>Source\LevelConstructors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LevelConstructors\WallDoorwayConstructor.h">
+      <Filter>Source\LevelConstructors</Filter>
+    </ClInclude>
+    <Filter Include="Source\LevelConstructors\Actors">
+      <UniqueIdentifier>{E7C80467-C7D7-4B1A-BD75-98F48202A2AD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LevelConstructors\Actors\LevelChunkReward.cpp">
+      <Filter>Source\LevelConstructors\Actors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LevelConstructors\Actors\LevelChunkReward.h">
+      <Filter>Source\LevelConstructors\Actors</Filter>
+    </ClInclude>
+    <Filter Include="Source\LevelConstructors\Controllers">
+      <UniqueIdentifier>{980DB85F-3927-4B00-9013-EEB420D5D71E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LevelConstructors\Controllers\LevelChunkController.cpp">
+      <Filter>Source\LevelConstructors\Controllers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LevelConstructors\Controllers\LevelChunkController.h">
+      <Filter>Source\LevelConstructors\Controllers</Filter>
+    </ClInclude>
+    <Filter Include="Source\LevelControlers">
+      <UniqueIdentifier>{A98D897C-612B-4D96-8FEB-B9E3D28B4544}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LevelControlers\LevelControler.cpp">
+      <Filter>Source\LevelControlers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LevelControlers\LevelControler.h">
+      <Filter>Source\LevelControlers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LevelControlers\PersistentLevelControler.cpp">
+      <Filter>Source\LevelControlers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LevelControlers\PersistentLevelControler.h">
+      <Filter>Source\LevelControlers</Filter>
+    </ClInclude>
+    <Filter Include="Source\SelectionPawns">
+      <UniqueIdentifier>{A4B79E7B-2554-41BC-8F30-9CD6037FE9DA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SelectionPawns\PlayerSelectActorAnim.cpp">
+      <Filter>Source\SelectionPawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SelectionPawns\PlayerSelectActorAnim.h">
+      <Filter>Source\SelectionPawns</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SelectionPawns\PlayerSelectionActor.cpp">
+      <Filter>Source\SelectionPawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SelectionPawns\PlayerSelectionActor.h">
+      <Filter>Source\SelectionPawns</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

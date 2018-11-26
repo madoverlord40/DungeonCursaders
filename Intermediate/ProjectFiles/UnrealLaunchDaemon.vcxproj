@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|Win32">
+      <Configuration>Invalid</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{03CC08EC-0AA9-4518-BFB1-423DB665B24C}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>UnrealLaunchDaemon</RootNamespace>
+    <PlatformToolset>v141</PlatformToolset>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectCapability Include="MLProject" />
+    <PropertyPageSchema Include="$(LOCALAPPDATA)\Microsoft\VisualStudio\MagicLeap\debugger.xaml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.Target.cs"/>
+    <None Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.Build.cs"/>
+    <None Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.tps"/>
+    <None Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.uproject"/>
+    <None Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Build\IOS\UnrealLaunchDaemon-Info.plist"/>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\LaunchDaemonMessageHandler.cpp"/>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\LaunchDaemonMessageHandler.h"/>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\UnrealLaunchDaemon.h"/>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\UnrealLaunchDaemonApp.cpp"/>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\UnrealLaunchDaemonApp.h"/>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\IOS\IOSLaunchDaemonAppMain.cpp"/>
+    <ClCompile Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\IOS\IOSLaunchDaemonView.cpp"/>
+    <ClInclude Include="C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\IOS\IOSLaunchDaemonView.h"/>
+  </ItemGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;ENABLE_PGO_PROFILE=0;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_APPLICATION_CORE=1;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_XGE_CONTROLLER=0;UBT_MODULE_MANIFEST="UnrealLaunchDaemon.modules";UBT_MODULE_MANIFEST_DEBUGGAME="UnrealLaunchDaemon-Win64-DebugGame.modules";UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;UE_APP_NAME="UnrealLaunchDaemon";WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UnrealLaunchDaemon.exe";UE_IS_ENGINE_MODULE=0;IMPLEMENT_ENCRYPTION_KEY_REGISTRATION()=;IMPLEMENT_SIGNING_KEY_REGISTRATION()=;DEPRECATED_FORGAME=DEPRECATED;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;WITH_MALLOC_STOMP=1;CORE_API=;APPLICATIONCORE_API=;RHI_API=;ENABLE_HTTP_FOR_NF=0;NETWORKFILE_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=0;PROJECTS_API=;JSON_API=;STREAMINGFILE_API=;SOCKETS_PACKAGE=1;SOCKETS_API=;SLATE_API=;COREUOBJECT_API=;INPUTCORE_API=;SLATE_PARENT_POINTERS=1;WITH_FREETYPE=1;SLATECORE_API=;WITH_UNREALPNG=1;WITH_UNREALJPEG=1;WITH_UNREALEXR=1;IMAGEWRAPPER_API=;EDITORSTYLE_API=;STANDALONERENDERER_API=;LAUNCHDAEMONMESSAGES_API=;MESSAGING_API=;UDPMESSAGING_API=;UNREALLAUNCHDAEMON_API=</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Launch\Private;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\Core;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\ApplicationCore;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\ApplicationCore\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\RHI;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\RHI\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\NetworkFile;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\UObject;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\NetworkFile\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\Projects;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Projects\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\Json;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Json\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\StreamingFile;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\StreamingFile\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\Sockets;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Sockets\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\Slate;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Slate\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\CoreUObject;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\InputCore;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\InputCore\Classes;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\InputCore\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\SlateCore;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\SlateCore\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\ImageWrapper;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\ImageWrapper\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\EditorStyle;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Editor;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Editor\EditorStyle\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\StandaloneRenderer;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Developer;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Developer\StandaloneRenderer\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\LaunchDaemonMessages;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\IOS;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\IOS\LaunchDaemonMessages\Classes;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\IOS\LaunchDaemonMessages\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\Messaging;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Messaging\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\UdpMessaging;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Source;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\Public;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\UnrealLaunchDaemon;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Programs\IOS;C:\Users\jamesh\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Launch\Public;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt;;</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

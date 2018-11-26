@@ -1,4 +1,8 @@
-.vs/
+*.ddc
+*.db*
+*.opendb
+*.lock
+*.ide*
 Binaries/
 Saved/
 
@@ -35,3 +39,4 @@ Content/Textures/
 Content/UniversalSkillIcons/
 Content/UIProject/
 Content/rpgeffects/
+.vs/DungeonCrusades/v15/.suo
